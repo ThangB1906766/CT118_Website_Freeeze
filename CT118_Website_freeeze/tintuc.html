@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tin Tức </title><link href="/data/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+    <link href="/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/font/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <!-- Đầu trang: -->
+    <header>
+        <a>
+            <img id="logo" src="/data/images/logo.png" />
+        </a>
+        <div class="header-img">
+            <img class="header-img1" src="data/images/header-img1.png" />
+            <img class="header-img2" src="data/images/header-img2.png" />
+            <img class="header-img3" src="data/images/header-img3.png" />
+        </div>
+    <!-- Thanh điều hướng -->
+        <div class="listNav">
+            <nav >
+                <a class="navItem" href="trangchu.html" target="_blank" > Trang Chủ </a>
+                <a class="navItem" href="gioithieu.html" target="_blank" > Giới Thiệu </a>
+                <a class="navItem" href="sanpham.html" target="_blank" > Sản Phẩm </a>
+                <a class="navItem" href="tintuc.html" target="_blank" > Tin Tức </a>
+                <a class="navItem" href="dangnhap.html" target="_blank" > Đăng Nhập </a>
+                <a class="navItem" href="dangky.html" target="_blank" > Đăng Ký </a>
+                <a class="navItem" href="lienhe.html" target="_blank" > Liên Hệ </a>
+            </nav>
+             <!-- Nội dung tìm kiếm -->
+           
+                <a class="fromSearch">
+                    <form method="GET" name="regForm" onsubmit="return sendData()" action="./timkiem.html">
+                        <input type="text" name="timkiem" class="textNav" placeholder="Nhập nội dung cần tìm...">
+                        <button class="searchNav" type="submit">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </form>
+
+                        <button class="cartNav">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        </button>
+                </a>
+        </div>
+    </header>
+    <!-- Nội dung chính -->
+    <main>
+        <article class="news">
+            <div>
+                <aside class="highlight-news">
+                    <h1> ĐƯỢC QUAN TÂM </h1>
+                    <img src="data/images/tintuc/hotnews.jpg" width="400px"/>
+                    <h2> KHAI TRƯƠNG HÂN HOAN – ƯU ĐÃI NGẬP TRÀN </h2>
+                    <p>
+                        Khai trương hân hoan – ưu đãi ngập tràn 🌈 🥰Thêm 1 ngôi nhà mới của Sữa chua Freeeze được khai trương.
+                        <a href="#"> Xem chi tiết </a>
+                    </p>
+                </aside>
+            </div>
+
+           <div class="tin-tuc">
+                <h1> TIN TỨC </h1>
+                <h2> LỘ DIỆN SIÊU NĂNG LỰC TỪ TRÁI XOÀI! </h2>
+                <div class="content-news">
+                   <div>
+                        <p>
+                            Xoài là một trong những cây ăn trái chủ lực của đồng bằng sông Cửu Long (ĐBSCL), chiếm khoảng 48% tổng diện tích xoài cả nước. Trong đó, tỉnh Đồng Tháp hiện có diện tích trồng xoài khoảng 12.171ha - lớn nhất vùng ĐBSCL với sản lượng hàng năm gần 124 ngàn tấn.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                   </div>
+                   <div>
+                         <img src="data/images/tintuc/news1.jpg"/>
+                   </div>
+                </div>
+
+                <h2> SỮA CÁC LOẠI HẠT-MÓN NGON CHO HỆ MIỄN DỊCH KHOẺ </h2>
+                <div  class="content-news">
+                    <div>
+                        <p>
+                            Các loại sữa hạt càng ngày trở nên quen thuộc với mọi người, bởi hàm lượng dinh dưỡng cao, và lành tính. Với thị trường sữa hạt đa dạng phong phú, hôm nay chúng ta cùng điểm qua xem có các loại sữa hạt nào, và loại nào là bổ dưỡng nhất cho sức khỏe ?.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                    </div>
+                   <div>
+                    <img src="data/images/tintuc/news2.jpg"/>
+                   </div>
+                </div>
+
+                <h2> SỮA CHUA KIWI – MÓN QUÀ CHO SỨC KHỎE </h2>
+                <div class="content-news">
+                   <div>
+                        <p>
+                            Kiwi thành phần dinh dưỡng rất cao so với các loại hoa quả khác. Hàm lượng vitamin C cao cho hệ miễn dịch khỏe mạnh cùng nguồn chất xơ hỗ trợ hệ tiêu hóa. Siêu quả Kiwi cho cả nhà siêu khỏe, 100% Vitamin C cần thiết mỗi ngày.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                   </div>
+                    <div>
+                        <img src="data/images/tintuc/news3.jpg"/>
+                    </div>
+                </div>
+
+                <h2> RA MẮT APP SỮA CHUA Freeeze TRÊN NỀN TẢNG IOS </h2>
+                <div  class="content-news">
+                    <div>
+                        <p>
+                            Nhằm mang đến cho tất cả khách hàng những trải nghiệm thú vị nhất Công ty Sữa Chua Freeeze giới thiệu app đặt hàng độc đáo, giúp khách hàng mua sắm được mọi lúc mọi nơi với nhiều tiện ích.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                    </div>
+                   <div>
+                         <img src="data/images/tintuc/news4.jpg"/>
+                   </div>
+                </div>
+
+                <h2> ĐĂNG KÝ THÀNH VIÊN – NHẬN NGAY ƯU ĐÃI </h2>
+                <div class="content-news">
+                   <div>
+                        <p>
+                            Công ty sữa chua hân hạnh mang đến chương trình "Đăng Ký Thành Viên" với nhiều ưu đãi độc đáo. Member Card – thẻ thành viên nhà Sữa Chua Freeeze dành cho tất cả khách hàng đăng kí tài khoản và phát sinh đơn hàng.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                   </div>
+                    <div>
+                        <img src="data/images/tintuc/news5.jpg"/>
+                    </div>
+                </div>
+
+                <h2> TUYỂN GIÁM SÁT CHUỖI CỬA HÀNG </h2>
+                <div class="content-news">
+                   <div>
+                        <p>
+                            Tuyển Giám Sát chuỗi cửa hàng : – tại khu vực TP Hải Phòng & các tỉnh lân cận – Số lượng: 01 MÔ TẢ: Giám sát hoạt động kinh doanh các cửa hàng; Kiểm tra lịch làm việc của các cửa hàng.
+                            <a href="#"> Xem chi tiết </a>
+                        </p>
+                   </div>
+                    <div>
+                        <img src="data/images/tintuc/news6.jpg"/>
+                    </div>
+                </div>
+           </div>
+        </article>
+    </main>
+    <!-- Chân trang -->
+    <footer>
+        <a> &copy; 2021 Bản quyền thuộc về FreeezeVN. </a>
+        <a href="https://www.facebook.com/" class="footer-mxh">  <i class="fab fa-facebook-f"></i> </a>
+        <a href="https://twitter.com/?lang=vi" class="footer-mxh">  <i class="fab fa-twitter"></i> </a>
+        <a href="https://www.pinterest.com/" class="footer-mxh">  <i class="fab fa-pinterest"></i> </a>
+        <a href="#top" class="footer-top-page"> <img src="data/images/top.png" alt="Image" width="50px" height="50px"> </a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
